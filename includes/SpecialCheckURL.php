@@ -14,7 +14,7 @@ class SpecialCheckURL extends SpecialPage {
 		$this->setHeaders();
 		$out = $this->getOutput();
 
-		$out->setPageTitle( 'Verifique o URL' );
+		$out->setPageTitle( $this->msg( 'checkurl-title' )->text() );
 
 		$out->addHTML(
 			Html::rawElement(
@@ -25,10 +25,9 @@ class SpecialCheckURL extends SpecialPage {
 						'border:2px solid #e5533d;border-radius:8px;' .
 						'background:#fff4f2;font-size:16px;'
 				],
-				'<h2>⚠️ URL inválido</h2>' .
-				'<p>O endereço que você tentou acessar não corresponde a nenhuma página válida da wiki.</p>' .
-				'<p>Verifique se o URL está correto ou utilize a navegação do site.</p>' .
-				'<p><a href="/">Voltar para a Página principal</a></p>'
+				'<h2>' . $this->msg( 'checkurl-heading' )->escaped() . '</h2>' .
+				'<p>' . $this->msg( 'checkurl-text' )->escaped() . '</p>' .
+				'<p><a href="/">' . $this->msg( 'checkurl-back' )->escaped() . '</a></p>'
 			)
 		);
 	}
