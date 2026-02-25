@@ -15,6 +15,8 @@ Adicione a seguinte linha em seu LocalSettings.php:
 wfLoadExtension("CheckURL");
 ```
 
+Após isso você pode verificar "Special:Version" para garantir que a extensão foi instalada corretamente
+
 # Como usar
 Você precisará do MediaWiki 1.40+ para poder usar<br>
 ache o ".htaccess" na raiz do seu site e digite:
