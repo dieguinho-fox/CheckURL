@@ -2,7 +2,7 @@
 	"name": "CheckURL",
 	"version": "1.0.0",
 	"author": "Dieguinho Fox",
-	"url": "https://fluffy-adventure-wiki.kesug.com",
+	"url": "https://github.com/dieguinho-fox/CheckURL",
 	"description": "Página especial para avisar sobre URLs inválidos",
 	"type": "specialpage",
 
