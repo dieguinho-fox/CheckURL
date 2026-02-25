@@ -1,0 +1,24 @@
+{
+	"name": "CheckURL",
+	"version": "1.0.0",
+	"author": "Dieguinho Fox",
+	"url": "https://fluffy-adventure-wiki.kesug.com",
+	"description": "Página especial para avisar sobre URLs inválidos",
+	"type": "specialpage",
+
+	"license-name": "MIT",
+
+	"requires": {
+		"MediaWiki": ">= 1.40"
+	},
+
+	"AutoloadClasses": {
+		"MediaWiki\\Extension\\CheckURL\\SpecialCheckURL": "includes/SpecialCheckURL.php"
+	},
+
+	"SpecialPages": {
+		"CheckURL": "MediaWiki\\Extension\\CheckURL\\SpecialCheckURL"
+	},
+
+	"manifest_version": 2
+}
