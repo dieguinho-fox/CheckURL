@@ -1,6 +1,6 @@
 {
 	"name": "CheckURL",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "Dieguinho Fox",
 	"url": "https://github.com/dieguinho-fox/CheckURL",
 	"description": "Página especial para avisar sobre URLs inválidos",
@@ -18,6 +18,12 @@
 
 	"SpecialPages": {
 		"CheckURL": "MediaWiki\\Extension\\CheckURL\\SpecialCheckURL"
+	},
+
+	"MessagesDirs": {
+		"CheckURL": [
+			"i18n"
+		]
 	},
 
 	"manifest_version": 2
