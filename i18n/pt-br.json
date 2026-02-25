@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dieguinho Fox"
+		]
+	},
+	"checkurl-title": "Verifique o URL",
+	"checkurl-heading": "⚠️ URL inválido",
+	"checkurl-text": "O endereço que você tentou acessar não corresponde a nenhuma página válida da wiki.",
+	"checkurl-back": "Voltar para a Página principal"
+}
